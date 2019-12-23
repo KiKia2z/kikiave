@@ -1,0 +1,146 @@
+/*****My Base Styles*****/
+body  {
+  background-color: #1f202b;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+	color: #f70074;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 36px;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	list-style: none;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/*****My Grid Styles*****/
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+	padding-left: 40px;
+	
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+/*****My Header Styles*****/
+
+nav {
+	float: right;
+	font-size: 30px;
+	padding-right: 110px
+}
+
+header h3 {
+	color: #ffffff;
+	font-size: 30px;
+	margin-left: 10px;
+	padding-right: 200px;
+}
+
+nav ul {
+	font-size: 30px;
+	margin-right: -60px;
+	padding-left: 100px;
+	word-spacing: 45px;
+}
+
+/*****My Tagline Styles*****/
+
+#tagline {
+	background: url('../img/hero-background.png');
+	background-size: cover;
+	clear: both;
+	height: 725px;
+}
+
+h1 {
+	color: white;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 72px;
+	padding: 225px 0 225px 0;
+}
+
+.special {
+	color: #f70074;
+}
+
+/*****My Work Styles*****/
+
+#work {
+	height: 1550px;
+}
+
+#work h2 {
+	clear: both;
+}
+
+#work img {
+	padding: 50px 0;
+}
+
+#work h3 {
+	padding: 50px 50px 0 50px;
+}
+
+#work p {
+	padding: 0 50px 300px 50px;
+}
+
+
+/*****My About Styles*****/
+
+#about {
+	background: url('../img/about-me.png');
+	background-size: cover;
+	height: 550px;
+}
+
+#about h2 {
+	padding: 50px 0 50px 0;
+}
+
+#about p {
+	color: #1f202b;
+}
+
+/*****My Contact Me Styles*****/
+
+#contact {
+	height: 400px;
+	text-align: center;
+}
+
+#contact h2 {
+	padding: 30px 0 40px 0;
+}
+
+#contact ul img {
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+/*****My Footer Styles*****/
+#footer {
+ clear: both;
+ font-size: 18px;
+ height: 50px;
+ text-align: center; 
+}
